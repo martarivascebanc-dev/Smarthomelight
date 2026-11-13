@@ -18,6 +18,18 @@ public class MainActivity extends AppCompatActivity {
     private boolean luzEncendida = false;
 
     // TODO RAMA feature/contador-luces: Declarar variable contador y referencia a tvContador
+    // Variable miembro:
+    private TextView tvContador;
+    private int contadorPulsaciones = 0;
+
+// En onCreate():
+    tvContador = findViewById(R.id.tvContador);
+    tvContador.setText(getString(R.string.texto_contador, contadorPulsaciones));
+
+// Dentro del onClick de btnInterruptor:
+    contadorPulsaciones++;
+    tvContador.setText(getString(R.string.texto_contador, contadorPulsaciones));
+
 
     // TODO RAMA feature/modo-noche: Declarar referencia a switchModoNoche
 

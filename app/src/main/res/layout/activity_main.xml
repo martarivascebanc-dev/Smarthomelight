@@ -40,6 +40,13 @@
         Insertar aquí un TextView con id 'tvContador' para mostrar
         el total de veces que se ha pulsado el interruptor.
     -->
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/texto_contador"
+        android:textSize="16sp" />
 
     <!--
         TODO RAMA feature/modo-noche:
