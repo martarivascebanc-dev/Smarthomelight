@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1976D2</color>
+    <color name="fondo_claro">#FFFFFF</color>
+    <color name="fondo_oscuro">#212121</color>
+    <color name="texto_claro">#212121</color>
+    <color name="texto_oscuro">#FFFFFF</color>
+    <color name="estado_apagado">#D32F2F</color>
+    <color name="estado_encendido">#388E3C</color>
+    <color name="alerta_panico">#B71C1C</color>
+</resources>

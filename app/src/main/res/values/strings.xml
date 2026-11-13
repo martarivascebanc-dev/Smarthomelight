@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartHome Light</string>
+    <string name="titulo_panel">Panel de Control: Salón</string>
+    <string name="estado_luz_apagada">Luz: APAGADA</string>
+    <string name="estado_luz_encendida">Luz: ENCENDIDA</string>
+    <string name="btn_interruptor">INTERRUPTOR</string>
+</resources>
